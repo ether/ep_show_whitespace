@@ -1,0 +1,11 @@
+{
+  "parts": [
+    {
+      "name": "main",
+      "client_hooks": {
+        "aceEditorCSS": "ep_show_whitespace/static/js/index",
+        "aceEditEvent": "ep_show_whitespace/static/js/index"
+      }
+    }
+  ]
+}
