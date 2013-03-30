@@ -1,0 +1,98 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'nodejs', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.2.2
+3 info using node@v0.8.18
+4 verbose publish [ '.' ]
+5 verbose read json /home/jose/etherpad-lite/node_modules/ep_show_whitespace/package.json
+6 warn package.json ep_show_whitespace@0.0.1 No README.md file found!
+7 verbose cache add [ '.', null ]
+8 verbose cache add name=undefined spec="." args=[".",null]
+9 verbose parsed url { pathname: '.', path: '.', href: '.' }
+10 silly lockFile 3a52ce78- .
+11 verbose lock . /home/jose/.npm/3a52ce78-.lock
+12 verbose read json package.json
+13 verbose tar pack [ '/home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/tmp.tgz',
+13 verbose tar pack   '.' ]
+14 verbose tarball /home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/tmp.tgz
+15 verbose folder .
+16 info prepublish ep_show_whitespace@0.0.1
+17 silly lockFile c806b7fd-39307-0-5167122611310333-tmp-tgz /home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/tmp.tgz
+18 verbose lock /home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/tmp.tgz /home/jose/.npm/c806b7fd-39307-0-5167122611310333-tmp-tgz.lock
+19 silly lockFile c806b7fd-39307-0-5167122611310333-tmp-tgz /home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/tmp.tgz
+20 verbose tar unpack /home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/tmp.tgz
+21 silly lockFile 4937162e-39307-0-5167122611310333-package /home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/package
+22 verbose lock /home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/package /home/jose/.npm/4937162e-39307-0-5167122611310333-package.lock
+23 silly gunzTarPerm modes [ '755', '644' ]
+24 silly gunzTarPerm extractEntry package.json
+25 silly gunzTarPerm extractEntry .npmignore
+26 silly gunzTarPerm extractEntry templates/editbarButtons.ejs
+27 silly gunzTarPerm extractEntry static/css/editor.css
+28 silly gunzTarPerm extractEntry static/js/index.js
+29 silly gunzTarPerm extractEntry ep.json
+30 verbose read json /home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/package/package.json
+31 silly lockFile 4937162e-39307-0-5167122611310333-package /home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/package
+32 verbose from cache /home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/package/package.json
+33 verbose tar pack [ '/home/jose/.npm/ep_show_whitespace/0.0.1/package.tgz',
+33 verbose tar pack   '/home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/package' ]
+34 verbose tarball /home/jose/.npm/ep_show_whitespace/0.0.1/package.tgz
+35 verbose folder /home/jose/tmp/npm-4101/1364613039307-0.5167122611310333/package
+36 silly lockFile 3dfd659f-how-whitespace-0-0-1-package-tgz /home/jose/.npm/ep_show_whitespace/0.0.1/package.tgz
+37 verbose lock /home/jose/.npm/ep_show_whitespace/0.0.1/package.tgz /home/jose/.npm/3dfd659f-how-whitespace-0-0-1-package-tgz.lock
+38 silly lockFile 3dfd659f-how-whitespace-0-0-1-package-tgz /home/jose/.npm/ep_show_whitespace/0.0.1/package.tgz
+39 silly lockFile d1e892e5-ep-show-whitespace-0-0-1-package /home/jose/.npm/ep_show_whitespace/0.0.1/package
+40 verbose lock /home/jose/.npm/ep_show_whitespace/0.0.1/package /home/jose/.npm/d1e892e5-ep-show-whitespace-0-0-1-package.lock
+41 silly lockFile d1e892e5-ep-show-whitespace-0-0-1-package /home/jose/.npm/ep_show_whitespace/0.0.1/package
+42 verbose tar unpack /home/jose/.npm/ep_show_whitespace/0.0.1/package.tgz
+43 silly lockFile d1e892e5-ep-show-whitespace-0-0-1-package /home/jose/.npm/ep_show_whitespace/0.0.1/package
+44 verbose lock /home/jose/.npm/ep_show_whitespace/0.0.1/package /home/jose/.npm/d1e892e5-ep-show-whitespace-0-0-1-package.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm extractEntry .npmignore
+48 silly gunzTarPerm extractEntry templates/editbarButtons.ejs
+49 silly gunzTarPerm extractEntry static/css/editor.css
+50 silly gunzTarPerm extractEntry static/js/index.js
+51 silly gunzTarPerm extractEntry ep.json
+52 verbose read json /home/jose/.npm/ep_show_whitespace/0.0.1/package/package.json
+53 silly lockFile d1e892e5-ep-show-whitespace-0-0-1-package /home/jose/.npm/ep_show_whitespace/0.0.1/package
+54 silly shasum updated bytes 1161
+55 info shasum 2a521fc33173d3e12ea22105afa3699dee16bf75
+55 info shasum /home/jose/.npm/ep_show_whitespace/0.0.1/package.tgz
+56 verbose from cache /home/jose/.npm/ep_show_whitespace/0.0.1/package/package.json
+57 verbose chmod /home/jose/.npm/ep_show_whitespace/0.0.1/package.tgz 644
+58 verbose chown /home/jose/.npm/ep_show_whitespace/0.0.1/package.tgz [ 1000, 1000 ]
+59 silly lockFile 3a52ce78- .
+60 silly publish { name: 'ep_show_whitespace',
+60 silly publish   description: 'Show trailing whitespace',
+60 silly publish   version: '0.0.1',
+60 silly publish   author:
+60 silly publish    { name: 'johnyma22',
+60 silly publish      email: 'john@mclear.co.uk',
+60 silly publish      url: 'John McLear' },
+60 silly publish   dependencies: {},
+60 silly publish   _id: 'ep_show_whitespace@0.0.1',
+60 silly publish   readme: 'ERROR: No README.md file found!',
+60 silly publish   dist: { shasum: '2a521fc33173d3e12ea22105afa3699dee16bf75' },
+60 silly publish   _from: '.' }
+61 verbose url raw ep_show_whitespace
+62 verbose url resolving [ 'https://registry.npmjs.org/', './ep_show_whitespace' ]
+63 verbose url resolved https://registry.npmjs.org/ep_show_whitespace
+64 info trying registry request attempt 1 at 03:10:39
+65 http PUT https://registry.npmjs.org/ep_show_whitespace
+66 http 409 https://registry.npmjs.org/ep_show_whitespace
+67 verbose url raw ep_show_whitespace
+68 verbose url resolving [ 'https://registry.npmjs.org/', './ep_show_whitespace' ]
+69 verbose url resolved https://registry.npmjs.org/ep_show_whitespace
+70 info trying registry request attempt 1 at 03:10:40
+71 http GET https://registry.npmjs.org/ep_show_whitespace
+72 http 200 https://registry.npmjs.org/ep_show_whitespace
+73 error publish fail Cannot publish over existing version.
+73 error publish fail Bump the 'version' field, set the --force flag, or
+73 error publish fail     npm unpublish 'ep_show_whitespace@0.0.1'
+73 error publish fail and try again
+74 error System Linux 3.5.0-17-generic
+75 error command "nodejs" "/usr/bin/npm" "publish"
+76 error cwd /home/jose/etherpad-lite/node_modules/ep_show_whitespace
+77 error node -v v0.8.18
+78 error npm -v 1.2.2
+79 error code EPUBLISHCONFLICT
+80 verbose exit [ 1, true ]
