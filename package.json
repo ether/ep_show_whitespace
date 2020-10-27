@@ -1,1 +1,17 @@
-{"name":"ep_show_whitespace","description":"Show trailing whitespace","version":"0.0.4","author":"johnyma22 (John McLear) <john@mclear.co.uk>","dependencies":{},"repository":{"repository":{"type":"git","url":"git://github.com/johnmclear/ep_show_whitespace.git"}}}
+{
+  "name": "ep_show_whitespace",
+  "description": "Show trailing whitespace",
+  "version": "0.0.4",
+  "author": "johnyma22 (John McLear) <john@mclear.co.uk>",
+  "dependencies": {},
+  "repository": {
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/johnmclear/ep_show_whitespace.git"
+    }
+  },
+  "funding": {
+    "type": "individual",
+    "url": "http://etherpad.org/"
+  }
+}
