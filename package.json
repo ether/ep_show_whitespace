@@ -4,10 +4,8 @@
   "version": "0.0.26",
   "author": "johnyma22 (John McLear) <john@mclear.co.uk>",
   "repository": {
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/johnmclear/ep_show_whitespace.git"
-    }
+    "type": "git",
+    "url": "git://github.com/johnmclear/ep_show_whitespace.git"
   },
   "funding": {
     "type": "individual",
